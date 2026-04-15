@@ -12,4 +12,9 @@ After biofilm detection, a radial profile angle analysis is perforemd from whic 
 
 The "Snapshot" macro takes a folder of ".czi" files as an input, while the individual series/tile of the timelapse images have to be opened for the "Timelapse" macro.
 
-All subsequent image analysis was done in a Jupyter Notebook, using a Python environment.
+All subsequent image analysis was done in a Jupyter Notebook, using a Python environment: "2026_04_15_Biofilm_Snapshot_and_Timelapse_Analysis.ipynb".
+
+The beginning of the Jupyter Notebook is dedicated to the Snapshot image analysis. This includes an image analysis that plots the indivdual profiles for every ".csv. file in a folder. In the next cell, we plot the extrema of the fluorescence profiles and of the FM-ratio (more details in the Methods section of the thesis). Then we plot the integrals of the fluorescent profiles and their ratop psi.
+
+The second part of the Jupyter Notebook is dedicated to the analysis of the timelapse images. Similar graphs can be created, but instead of plotting against concentration, we plot against time.
+
